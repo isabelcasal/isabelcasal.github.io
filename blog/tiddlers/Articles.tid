@@ -1,6 +1,13 @@
 created: 20190504033118758
-modified: 20190504034950301
+list: 
+modified: 20190504040054002
 tags: TableOfContents
 title: Articles
 type: text/vnd.tiddlywiki
 
+<div class="tc-table-of-contents">
+<p>Here are some articles I've written.</p>
+
+<<toc-selective-expandable 'Articles'>>
+
+</div>
