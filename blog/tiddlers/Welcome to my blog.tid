@@ -1,19 +1,21 @@
-caption: Contents
-created: 20190504032816991
-list-after: $:/core/ui/SideBar/Open
-modified: 20190504050511665
-tags: $:/tags/SideBar
+created: 20190504052033476
+modified: 20190504052258820
+tags: 
 title: Welcome to my blog
 type: text/vnd.tiddlywiki
 
-<div class="tc-table-of-contents welcomeGrid">
+<div class="welcomeGrid">
   <div class="profile">
     <figure>
       [img width=400 alt="me at Muir Woods" [img/aaron.png]]
       <figcaption>Me @ //Muir Woods National Monument, Mill Valley, California, Feburary 2nd, 2019//</figcaption>
     </figure>
   </div>
-  <div class="bio">My areas of interest include science, engineering, music, computer programming, botany, writing, and dog training.
-      <<toc-selective-expandable 'TableOfContents'>>
+  <div class="bio">
+    <p>My areas of interest include science, engineering, music, computer programming, botany, writing, and dog training.
+    </p>
+    <div>
+      {{TableOfContents}}
+    </div>
   </div>
 </div>
