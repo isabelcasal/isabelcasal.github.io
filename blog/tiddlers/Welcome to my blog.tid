@@ -1,18 +1,18 @@
 created: 20190504052033476
-modified: 20190505220337027
+modified: 20190505233039483
 tags: 
 title: Welcome to my blog
 type: text/vnd.tiddlywiki
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="welcomeGrid">
-  <div class="profile">
+<div class="grid">
+  <div class="left">
     <figure class="pic">
       [img width=400 alt="me at Muir Woods" [img/aaron.png]]
       <figcaption class="picCaption">Me @ //Muir Woods National Monument// 02/02/2019</figcaption>
     </figure>
   </div>
-  <div class="bio">
+  <div class="right">
     <h3>My areas of interest include //science//, //engineering//, //music//, //computer programming//, //botany//, //writing//, and //dog training//.</h3>
     <div>
       {{TableOfContents}}
