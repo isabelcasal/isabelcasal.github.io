@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.left {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.right { 
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+.paper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px  #93a1a1;
+}
+
+[data-tags*="Garden"] {
+  border: 2px outset #859900;
+  box-shadow: 2px 2px 2px  #93a1a1;
+  border-radius: 12px;
+}
+
+[data-tags*="TableOfContents"] {
+  border: 2px outset #839496;
+  box-shadow: 2px 2px 2px  #93a1a1;
+  border-radius: 12px;
+}
+
+[data-tags*="Welcome"] {
+  border: 2px outset #839496;
+  box-shadow: 2px 2px 2px  #93a1a1;
+  border-radius: 12px;
+}
