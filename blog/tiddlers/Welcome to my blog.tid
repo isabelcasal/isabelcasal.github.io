@@ -1,5 +1,5 @@
 created: 20190504052033476
-modified: 20190506023629423
+modified: 20190528033056110
 tags: Welcome
 title: Welcome to my blog
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
   <div class="left">
     <figure class="pic">
       [img width=400 alt="me at Muir Woods" [img/aaron.png]]
-      <figcaption class="picCaption">Me @ //Muir Woods National Monument// 02/02/2019</figcaption>
+      <figcaption class="picCaption">Me @ //Muir Woods National Monument// 02/02/2019 @photo <a href=" https://isabelcasalux.com">Isabel Casal Nazario</a></figcaption>
     </figure>
   </div>
   <div class="right">
