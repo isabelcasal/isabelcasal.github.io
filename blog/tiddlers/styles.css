@@ -35,7 +35,7 @@
 }
 
 [data-tags*="Welcome"] {
-  border: 2px outset #839496;
+  border: 15px outset #859900;
   box-shadow: 2px 2px 2px  #93a1a1;
   border-radius: 12px;
 }

@@ -1,5 +1,5 @@
 created: 20190506013804151
-modified: 20190506014522450
+modified: 20190602171921646
 tags: TableOfContents
 title: Garden
 type: text/vnd.tiddlywiki
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
   <div class="left">
     <p>For me, gardening brings awareness of life. Watching my garden evolve over the years has made me a long term thinker and has brought me much inner peace.
     </p>
+    <p>❤️ ✌️🌱</p>
   <div class="pic">
     [img[img/garden_summer_2018.png]]
   </div>
@@ -15,7 +16,7 @@ type: text/vnd.tiddlywiki
   <div class="right">
     <div class="tc-table-of-contents">
 
-      <<toc-selective-expandable 'Garden'>>
+      <<toc-selective-expandable 'Garden' !sort[created]>>
 
     </div>
   </div>
