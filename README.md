@@ -1,2 +1,2 @@
 # aaronpankratz.github.io
-My blog built using TiddlyWiki https://tiddlywiki.com/
+source code for my blog
