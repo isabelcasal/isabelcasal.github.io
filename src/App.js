@@ -1,17 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import aaron from './img/aaron.jpg';
+import { Router, Link } from "@reach/router"
+import AboutMe from './AboutMe';
 
-function App() {
-  return (
-    <div className="App">
-      <h3>
-        Hi, my name is Aaron Pankratz. Welcome to my simple blog.
-        <i className="fas fa-rocket"/>
-      </h3>
-      <img src={aaron} alt="Aaron" style={{height: '200px'}}/>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div class="App">
+        <div class="Nav">
+          <nav>
+            <Link to="/">About Me</Link> |{" "}
+            <Link to="articles">Articles</Link> |{" "}
+            <Link to="garden">Garden</Link> |{" "}
+            <Link to="ideas">Ideas</Link> |{" "}
+            <Link to="music">Music</Link>
+          </nav>
+        </div>
+        <Router>
+          <AboutMe path="/" />
+        </Router>
+        
+      </div>
+    );
+  }
 }
-
-export default App;
