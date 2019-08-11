@@ -4,6 +4,7 @@ import { Router, Link } from "@reach/router"
 import AboutMe from './AboutMe';
 import Articles from './Articles';
 import Garden from './Garden';
+import Ideas from './Ideas';
 
 export default class App extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
                     <AboutMe path="/" />
                     <Articles path="/articles"/>
                     <Garden path="/garden"/>
+                    <Ideas path="/ideas"/>
                 </Router>
             </div>
         );
