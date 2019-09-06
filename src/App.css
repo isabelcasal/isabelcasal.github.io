@@ -1,7 +1,22 @@
-.App {
+.app {
   text-align: center;
 }
 
-.Nav {
+.nav {
   margin-top: 10px;
+}
+
+.body {
+
+}
+
+a {
+  font-family: 'runda';
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: normal;
+}
+
+div {
+  font-family: 'Courier New', Courier, monospace;
 }

@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "bulma": "^0.7.5",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -33,5 +34,13 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "@types/reach__router": "^1.2.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  }
 }

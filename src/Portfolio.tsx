@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { RouteComponentProps } from '@reach/router';
 
-export default class AboutMe extends Component {
+export default class Portfolio extends Component<RouteComponentProps> {
     render() {
         return (
             <div>
