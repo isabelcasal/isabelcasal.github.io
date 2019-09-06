@@ -8,9 +8,6 @@ export default class AboutMe extends Component {
                     Hi, my name is Isabel Casal.&nbsp;&nbsp;&nbsp;&nbsp;
                     <i className="fas fa-rocket"/>
                 </h3>
-                <p>
-                    UX stuff
-                </p>
             </div>
         );
     }
