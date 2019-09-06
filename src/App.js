@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Router, Link } from "@reach/router"
 import AboutMe from './AboutMe';
-import Articles from './Articles';
-import Garden from './Garden';
-import Ideas from './Ideas';
-import Music from './Music';
+import UX from './UX';
 
 export default class App extends Component {
     render() {
@@ -14,18 +11,12 @@ export default class App extends Component {
                 <div class="Nav">
                     <nav>
                         <Link to="/">About Me</Link> |{" "}
-                        <Link to="articles">Articles</Link> |{" "}
-                        <Link to="garden">Garden</Link> |{" "}
-                        <Link to="ideas">Ideas</Link> |{" "}
-                        <Link to="music">Music</Link>
+                        <Link to="ux">UX</Link> |{" "}
                     </nav>
                 </div>
                 <Router>
                     <AboutMe path="/" />
-                    <Articles path="/articles"/>
-                    <Garden path="/garden"/>
-                    <Ideas path="/ideas"/>
-                    <Music path="/music"/>
+                    <UX path="/ux"/>
                 </Router>
             </div>
         );
