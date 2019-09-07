@@ -6,14 +6,10 @@
   margin-top: 10px;
 }
 
-.body {
-
-}
-
 a {
   font-family: 'runda';
   text-decoration: none;
-  font-size: xx-large;
+  font-size: normal;
   font-weight: normal;
 }
 

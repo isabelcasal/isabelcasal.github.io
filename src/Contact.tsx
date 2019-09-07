@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { RouteComponentProps } from '@reach/router';
 
-export default class Portfolio extends Component<RouteComponentProps> {
+export default class Contact extends Component<RouteComponentProps> {
     render() {
         return (
-            <div>
+            <div className="box">
                 <h3>
-                    Hi, my name is Isabel Casal.&nbsp;&nbsp;&nbsp;&nbsp;
+                    info@isabelcasal.design
                     <i className="fas fa-rocket"/>
                 </h3>
             </div>
