@@ -9,6 +9,10 @@
   flex-direction: column;
 }
 
+.is-text-aligned-left {
+  text-align: left;
+}
+
 div {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -25,4 +29,8 @@ div {
 .calendar {
   min-width:320px;
   height:630px;
+}
+
+.big-image {
+  max-height: 600px;
 }
