@@ -41,6 +41,10 @@ pre {
   text-align: left;
 }
 
+.is-right {
+  float: right;
+}
+
 div {
   font-family: 'Courier New', Courier, monospace;
 }

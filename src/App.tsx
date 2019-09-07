@@ -19,6 +19,7 @@ export default class App extends Component {
                         </Link> 
                         <Link className="navbar-item" to="projects">projects</Link>
                         <Link className="navbar-item" to="contact">contact</Link>
+                        <a className="navbar-item is-small button is-warning" href="https://isabelcasalux.com/s/Casal_Resume-tsh4.pdf">Resume</a>
                     </div>
                 </nav>
                 <Router primary={false}>
