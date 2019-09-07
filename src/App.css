@@ -1,3 +1,31 @@
+body {
+  font-family: "Open Sans"; 
+}
+
+a {
+  font-family: "Open Sans";
+}
+
+h1 { 
+  font-family: "Open Sans"; 
+}
+
+h3 { 
+  font-family: "Open Sans";
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+blockquote {
+  font-family: "Open Sans";
+}
+
+pre {
+  font-family: "Open Sans"; 
+}
+
 .app {
   text-align: center;
 }
@@ -33,4 +61,14 @@ div {
 
 .big-image {
   max-height: 600px;
+}
+
+.card {
+  width: 800px;
+  min-height: 400px;
+  padding: 20px;
+}
+
+.bio {
+  font-size: 14pt;
 }
