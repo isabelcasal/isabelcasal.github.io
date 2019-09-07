@@ -2,17 +2,27 @@
   text-align: center;
 }
 
-.nav {
-  margin-top: 10px;
-}
-
-a {
-  font-family: 'runda';
-  text-decoration: none;
-  font-size: normal;
-  font-weight: normal;
+.is-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 div {
   font-family: 'Courier New', Courier, monospace;
+}
+
+.circle {
+  border-radius: 50%;
+  max-height: 100px !important;
+}
+
+.name {
+  padding-left: 10px;
+}
+
+.calendar {
+  min-width:320px;
+  height:630px;
 }
