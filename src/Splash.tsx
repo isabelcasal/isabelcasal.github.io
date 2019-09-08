@@ -17,7 +17,7 @@ export default class Splash extends Component<RouteComponentProps> {
                         San Juan, Puerto Rico.
                         </p>
                         <p>
-                            I live in Austin, Texas and work at&nbsp;<a className="tag is-success is-large" href="https://www.peddle.com/">Peddle</a>.
+                            I live in Austin, Texas and work at&nbsp;<a href="https://www.peddle.com/">Peddle</a>.
                         </p>
                     </div>
                     <div className="bio">

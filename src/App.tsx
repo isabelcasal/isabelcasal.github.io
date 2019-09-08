@@ -15,11 +15,17 @@ export default class App extends Component {
                     <div className="navbar-brand">
                         <Link className="navbar-item" to="/">
                             <img className="circle" src={isabel} alt="Isabel Casal" />
-                            <span className="title is-3 name">Isabel Casal</span>
+                            <span className="title is-5 name">Isabel Casal</span>
                         </Link> 
-                        <Link className="navbar-item" to="projects">projects</Link>
-                        <Link className="navbar-item" to="contact">contact</Link>
-                        <a className="navbar-item is-small button is-warning" href="https://isabelcasalux.com/s/Casal_Resume-tsh4.pdf">Resume</a>
+                        <div>
+                            <Link className="navbar-item" to="projects">projects</Link>
+                            <Link className="navbar-item" to="contact">contact</Link>
+                            <a className="navbar-item is-small button is-warning" href="https://isabelcasalux.com/s/Casal_Resume-tsh4.pdf">Resume</a>
+                        </div>
+                        
+                    </div>
+                    <div className="navbar-brand">
+                        
                     </div>
                 </nav>
                 <Router primary={false}>
